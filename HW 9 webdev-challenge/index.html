@@ -1,0 +1,89 @@
+<!-- Add media queries later so that the page adjusts to the width accordingly -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Sungwon's Analytics Dashboard</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/styles.css">
+	<link rel="stylesheet" href="css/styles_image.css">
+</head>
+<body>
+	<nav class="navbar" style="margin: 0px">
+	  <div class="container-fluid">
+
+	    <div class="navbar-header">
+	      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>                        
+	      </button>
+	      <a class="navbar-brand" href="index.html">Lattitude</a>
+	    </div>
+
+
+
+	    <div class="collapse navbar-collapse" id="myNavbar">
+		    <ul class="nav navbar-nav navbar-right">
+		      <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Plots<span class="caret"></span></a>
+		        <ul class="dropdown-menu">
+		          <p><a href="#">Max Temperature</a>
+		          <a href="#">Humidity</a>
+		          <a href="#">Cloudiness</a>
+		          <a href="#">Wind Speed</a></p>
+		        </ul>
+		      </li>
+		      <li><a href="comparisons.html">Comparison</a></li>
+		      <li><a href="data.html">Data</a></li>
+		    </ul>
+		</div>
+	
+	  </div>
+	</nav>
+	<div class="container-fluid content">
+		<div class="col-sm-7">
+			<div class="col-sm-12 content">
+				<h1>
+					Summary: Latitude vs. X
+				</h1>
+				<hr>
+
+				<p>
+					<img src="img/temp.png" class="img-responsive" style="float: left">
+					The purpose of this project is to analyze geospatial weather patterns. We are particularly interested in how weather observations change as you move closer to the equator. 
+				</p>
+			</div>
+		</div>	
+		<div class="col-sm-4">
+			<div class="col-sm-12 content" style="padding-bottom: 20px">
+				<h3>
+					Visualizations
+				</h3>
+				<hr>
+				<div class="container-fluid align-middle">
+					<div class="row">
+						<div class="col-sm-6"">
+							<img src="img/long.png" class="img-responsive">
+						</div>
+						<div class="col-sm-6">
+							<img src="img/temp.png" class="img-responsive">
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-sm-6">
+							<img src="img/hum.png" class="img-responsive">
+						</div>
+						<div class="col-sm-6">
+							<img src="img/cloud.png" class="img-responsive">
+						</div>
+					</div>
+				</div>
+			</div>	
+
+			
+		</div>
+	</div>
+</body>
+</html>
